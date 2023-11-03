@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <label for="name"> Name: </label>
+        <input type="text" placeholder="name" name="name" id="name">
+        <label for="password"> Password: </label>
+        <input type="password" placeholder="password" name="password" id="password">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const name = document.getElementById('name')
+        const password = document.getElementById('password')
+        const form = document.getElementById('form')
+
+        form.addEventListener('submit', onSubmit)
+
+        function onSubmit(){
+            if(name.value.length < 3){
+                alert('username is to short')
+            } else if(password.value.length<8){
+                alert('password is to weak')
+            }else if(password.value.length >15){
+                alert('passwprd is to long')
+
+            }
+        }
+    </script>
+    
+</body>
+</html>

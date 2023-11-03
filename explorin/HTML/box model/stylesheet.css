@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.box1{
+    width:90%;
+    height: 120px;
+    display: flex;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: 2px solid blue;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.sub-box1{
+    width: 30%;
+    height: 50px;
+    background-color: orange;
+    border: 3px solid rgb(13, 125, 231);
+}
+.sub-box2{
+    width: 30%;
+    height: 50px;
+    background-color: orange;
+    border: 3px solid rgb(255, 0, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box3{
+    width: 30%;
+    height: 50px;
+    background-color:orange;
+    border: 3px solid rgb(255, 38, 0);
+}
+.inner1{
+    width: 48%;
+    height: 40px;
+    background-color: rgb(244, 135, 127);
+    border: 3px solid red;
+}
+.inner2{
+    width: 48%;
+    height: 40px;
+    background-color: rgb(244, 135, 127);
+    border: 3px solid red;
+}
+.big-box{
+    width: 40%;
+    height: 400px;
+    background-color:rgb(244, 135, 127);
+    margin-top: 20px;
+    margin-left: 60px;
+    border: 3px solid red;
+    
+}
+.nor-box1{
+    width: 110%;
+    height:180px;
+    background-color:rgb(244, 135, 127);
+    border: 3px solid red;
+    margin-left: 700px;
+    
+}
+.nor-box2{
+    width: 110%;
+    height:180px;
+    background-color:rgb(244, 135, 127);
+    border: 3px solid red;
+    margin-left: 700px;
+    margin-top: 25px;
+    
+}
+.last{
+    width:90%;
+    height: 120px;
+    display: flex;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: 2px solid blue;
+    align-items: center;
+    justify-content: space-evenly;
+}
